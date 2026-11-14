@@ -1,0 +1,13 @@
+name: RubyOre
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  rubyore:
+    description: Gives you a powerful Ruby Ore block.
+    usage: /rubyore [amount]
+    permission: rubyore.give
+permissions:
+  rubyore.give:
+    description: Allows the player to receive Ruby Ore.
+    default: op
